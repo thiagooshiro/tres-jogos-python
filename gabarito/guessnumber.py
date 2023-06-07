@@ -6,15 +6,15 @@ def guess_the_number():
 
     print("Bem vindo ao jogo da advinhação")
     print("Estou pensando em um número entre 1 e 100")
-
-    while True:
+    game = True
+    while game == True:
         guess = int(input("Em qual número estou pensando? "))
         attempts += 1
 
         if guess == secret_number:
             print("Parabéns! Você adivinhou o número corretamente.")
             print("Só levou", attempts, "tentativa(s) para você advinhar")
-            break
+            game == False
         elif guess < secret_number:
             print("Muito baixo! Tá mais pra cima")
         else:
