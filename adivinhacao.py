@@ -1,4 +1,4 @@
-# 1° Desafio:
+# Desafio 1:
 
 # Vamos criar um jogo de advinhação.
 # O Computador irá escolher de forma aleatória um número entre 1 e 100.

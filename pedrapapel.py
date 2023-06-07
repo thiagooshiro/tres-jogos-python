@@ -1,4 +1,4 @@
-# 2° Desafio:
+# Desafio 2:
 
 # Vamos construir um jogo de "Pedra, papel, tesoura"!
 # Um jogador humano irá disputar contra a máquina.
